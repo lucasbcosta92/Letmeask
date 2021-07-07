@@ -28,7 +28,7 @@ export function Home() {
     history.push("/rooms/new");
   }
 
-  // Acesso à salas
+  // Acessando uma sala
   async function handleJoinRom(e: FormEvent) {
     e.preventDefault();
 
